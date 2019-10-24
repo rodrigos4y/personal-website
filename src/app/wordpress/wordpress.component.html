@@ -1,0 +1,7 @@
+<p>Github repositories</p>
+
+<input type="text" [(ngModel)]='searchText' (keyup.enter)='getProjects()'>
+
+<ul>
+    <li *ngFor='let project of projects'>Repo: {{project.full_name}}</li>
+</ul>
