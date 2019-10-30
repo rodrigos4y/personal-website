@@ -96,7 +96,7 @@
     position:absolute;
     right:0;
     top:0;
-    background:transparent url(../images/close.png) scroll no-repeat center center;
+    background:transparent url(../assets/images/close.png) scroll no-repeat center center;
     cursor:pointer;
     z-index:9993;
     zoom:1;
@@ -121,12 +121,12 @@
 #cm-wrap #cm-prev
 {
     left:0;
-    background:transparent url(../images/prev.png) scroll no-repeat 0 center;
+    background:transparent url(../assets/images/prev.png) scroll no-repeat 0 center;
 }
 #cm-wrap #cm-next
 {
     right:0;
-    background:transparent url(../images/next.png) scroll no-repeat 100% center;
+    background:transparent url(../assets/images/next.png) scroll no-repeat 100% center;
 }
 #cm-wrap #cm-prev:hover,
 #cm-wrap #cm-next:hover,
